@@ -16,7 +16,7 @@ This markdown file belongs to Peer Assessment 1 of the Reproducible Research Cou
 ## Loading and preprocessing the data
 In this step we load the data from the file. Make sure the file 'activity.csv' is given in your working directory. 
 
-```{r}
+```{r, echo = TRUE}
 data <- read.csv('activity.csv')
 
 ```
